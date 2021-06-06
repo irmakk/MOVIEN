@@ -40,7 +40,6 @@ urlpatterns = [
     path('bucketlist/',user_views.display_bucketlist,name='bucketlist'),
     path('addWatchlistUser/',movie_views.watchlist_add_user,name='watchlistExists'),
     path('', include('pwa.urls'))
-    #path('profile/', user_views.profile, name='profile'),
 
 ]
 if settings.DEBUG:
